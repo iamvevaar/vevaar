@@ -1,0 +1,70 @@
+.experiencesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.experiencesContainer > div{
+    background-color: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: var(--transition);
+
+}
+
+.experiencesContainer > div:hover{
+    background-color: transparent;
+    border-color:var(--color-bg-variant) ;
+    transition: var(--transtion);
+}
+
+.experiencesContainer > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experiencesContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experiencesDetail{
+    display: flex;
+    gap: 1rem;
+}
+
+.experiencesIcon{
+    font-size: 3rem;
+    color: var(--color-primary);
+}
+
+
+@media screen and (max-width: 1024px) {
+   .experiencesContainer{
+    grid-template-columns: 1fr;
+   }
+   .experiencesContainer > div{
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+   }
+   .experiencesContent{
+    padding: 1rem;
+   }
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .experiencesContainer{
+    gap: 1rem;
+   }
+   .experiencesContainer > div{
+    width: 100wh;
+   }
+   .experiencesContent{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+ }
