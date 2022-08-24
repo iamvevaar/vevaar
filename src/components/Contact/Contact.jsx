@@ -48,14 +48,14 @@ const Contact = () => {
           <article className="contactOption">
             <BsWhatsapp className="contactOptionIcon"/>
             <h4>WhatsApp</h4>
-            <h5> <span>+91</span> 99281918</h5>
+            <h5> <span>+91</span> 9928191868</h5>
             <a href="https://api.whatsapp.com/send?phone=9928191868" target='blank'>Say Hello Saab</a>
           </article>
 
           <article className="contactOption">
             <RiTelegramLine className="contactOptionIcon"/>
             <h4>Telegram</h4>
-            <h5> <span>+91</span> 99281918</h5>
+            <h5> <span>+91</span> 9928191868</h5>
             <a href="https://telegram.me/iamvevaar" target='blank'>Say Hello Saab</a>
           </article>
 
