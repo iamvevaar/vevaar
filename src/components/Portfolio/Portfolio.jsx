@@ -36,12 +36,12 @@ const Portfolio = () => {
         <article className="portfolioItem">
           <div className="portfolioItemImage">
             <img
-              src="https://user-images.githubusercontent.com/69046800/186210957-97cda125-567d-4b2c-aa6e-458fad14a739.png"
+              src="https://user-images.githubusercontent.com/69046800/192615408-ace08305-9856-49a4-8ab2-84ce29446748.png"
               alt=""
             />
           </div>
           <div className="portfolioHead">
-            <h3>Background Loop Video</h3>
+            <h3>Blog Publisher</h3>
             <p>Frontend</p>
           </div>
           <div className="portfolioItemCTA">
@@ -49,7 +49,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://iamvevaar.github.io/BGloop/"
+              href="https://velogs.netlify.app/"
               className="btn btn-primary"
               target="blank"
             >
