@@ -3,6 +3,7 @@ import './footermain.css'
 import { FaFacebook  } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 
 const Footermain = () => {
   return (
@@ -34,9 +35,10 @@ const Footermain = () => {
       </ul>
 
       <div className="footermainSocials">
-        <a href=""><FaFacebook/></a>
-        <a href=""><FaInstagram/></a>
-        <a href=""><FaTwitter/></a>
+        <a href="https://github.com/iamvevaar" target="blank"><FaGithub/></a>
+        <a href="https://www.facebook.com/gautam.suthar.37017"><FaFacebook/></a>
+        <a href="https://www.instagram.com/iamvevaar/"><FaInstagram/></a>
+        <a href="https://twitter.com/iamvevaar"><FaTwitter/></a>
       </div>
 
       <div className="footermainCopyright">
