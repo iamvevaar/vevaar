@@ -1,4 +1,4 @@
-import { Header ,About , Contact , Experiences , Footer , Navbar , Portfolio , Services, Footermain} from "./components/main"
+import { Header ,About , Contact , Experiences , Footer , Navbar , Portfolio , Footermain} from "./components/main"
 function App() {
   return (
     <div>
@@ -6,7 +6,7 @@ function App() {
       <Navbar/>
       <About/>
       <Experiences/>
-      <Services/>
+      {/* <Services/> */}
       <Portfolio/>
       <Contact/>
       <Footermain/>

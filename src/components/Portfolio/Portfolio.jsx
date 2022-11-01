@@ -13,20 +13,45 @@ const Portfolio = () => {
       <article className="portfolioItem">
           <div className="portfolioItemImage">
             <img
-              src="https://user-images.githubusercontent.com/69046800/193452823-4552dc12-1108-430d-8aad-ca23ba7666af.png"
+              src="https://user-images.githubusercontent.com/69046800/196301741-c0e34585-8ea8-490d-bd89-c96aff360429.png"
               alt=""
             />
           </div>
           <div className="portfolioHead">
             <h3>Vechat</h3>
-            <p>Frontend | Firebase</p>
+            <p>Frontend | Firebase | React.js</p>
           </div>
           <div className="portfolioItemCTA">
-            <a href="https://github.com/iamvevaar/vchat" className="btn" target="blank">
+            <a href="https://github.com/iamvevaar/vchat" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
               href="https://vechats.netlify.app/"
+              className="btn btn-primary"
+              target="blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolioItem">
+          <div className="portfolioItemImage">
+            <img
+              src="https://user-images.githubusercontent.com/69046800/199338623-2cd8e9fd-c5f0-4242-91ec-7b9c9d7b20e0.png"
+              alt=""
+            />
+          </div>
+          <div className="portfolioHead">
+            <h3>Vecoins</h3>
+            <p>Frontend | React.js | API </p>
+          </div>
+          <div className="portfolioItemCTA">
+            <a href="https://github.com/iamvevaar/vecoins.git" className="btn" target="_blank" rel="noreferrer">
+              Github
+            </a>
+            <a
+              href="https://vecoins.netlify.app/"
               className="btn btn-primary"
               target="blank"
             >
@@ -47,7 +72,7 @@ const Portfolio = () => {
             <p>Vanilla Javascript</p>
           </div>
           <div className="portfolioItemCTA">
-            <a href="https://github.com/iamvevaar/vether/tree/master" className="btn" target="blank">
+            <a href="https://github.com/iamvevaar/vether/tree/master" className="btn" target="_blank" rel="noreferrer">
               Github
             </a>
             <a
@@ -61,30 +86,7 @@ const Portfolio = () => {
         </article>
 
 
-        <article className="portfolioItem">
-          <div className="portfolioItemImage">
-            <img
-              src="https://user-images.githubusercontent.com/69046800/186210957-97cda125-567d-4b2c-aa6e-458fad14a739.png"
-              alt=""
-            />
-          </div>
-          <div className="portfolioHead">
-            <h3>Background Loop Video</h3>
-            <p>Frontend</p>
-          </div>
-          <div className="portfolioItemCTA">
-            <a href="https://github.com" className="btn" target="blank">
-              Github
-            </a>
-            <a
-              href="https://iamvevaar.github.io/BGloop/"
-              className="btn btn-primary"
-              target="blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+   
 
 {/* 
         <article className="portfolioItem">
