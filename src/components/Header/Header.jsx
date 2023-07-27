@@ -12,7 +12,7 @@ const Header = () => {
         <h5 className="text-light">Javascript Developer</h5>
         <div className="cta">
           <a
-            href="https://drive.google.com/file/d/10_u4SOZ7KonEHd98TZACkxfroLPd2T3z/view?usp=sharing"
+            href="https://drive.google.com/file/d/1QQWIXb7ZKXrVYe0VzvrVVM-oUKnazCLO/view?usp=sharing"
             className="btn "
           >
             Resume
